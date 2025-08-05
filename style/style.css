@@ -20,6 +20,12 @@ li {
   list-style: none;
 }
 
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -31,7 +37,7 @@ h1 {
   line-height: 3.813rem;
 }
 
-.subtitle {
+.sub-title {
   font-size: 2.875rem;
   line-height: 3.563rem;
   font-weight: 700;
@@ -48,18 +54,19 @@ p {
 .btn {
   font-size: 1.25rem;
   font-weight: 600;
+  width: 12.313rem;
+  text-align: center;
   color: rgb(255, 255, 255);
   padding: 10px 30px;
   border-radius: 0.75rem;
   background: rgb(254, 163, 1);
 }
 
-/* =========Menu========== */
+/* =========Nav Section========== */
 header {
-  margin-top: 20px;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 20px;
+  padding-top: 20px;
   background: rgb(247, 247, 247);
 }
 nav {
@@ -111,4 +118,30 @@ ul li a {
 
 .menu-admission {
   color: rgb(93, 88, 239);
+}
+
+/* =========Banner Section========== */
+.banner-section {
+  gap: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-text {
+  flex: 1;
+}
+
+.banner-text p {
+  margin: 24px auto;
+}
+
+.banner-text .btn {
+  padding: ;
+}
+
+.banner-img {
+  flex: 1;
+  display: flex;
+  justify-content: end;
 }
