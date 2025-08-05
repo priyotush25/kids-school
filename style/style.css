@@ -146,3 +146,53 @@ ul li a {
   display: flex;
   justify-content: end;
 }
+
+/* =========Curriculum Section========== */
+.curriculum-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 60px 60px 200px;
+
+  background-image: url("../assets/bg.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.curriculum-content {
+  text-align: center;
+}
+
+.curriculum-card {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  padding: 55px 40px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(rgb(222, 245, 255), rgba(255, 255, 255, 0));
+}
+
+.curriculum-cards {
+  gap: 30px;
+  display: flex;
+  margin-top: 80px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: rgb(32, 32, 32);
+}
+
+.card-description {
+  font-size: 1rem;
+  color: rgb(128, 128, 128);
+}
+
+.red-more {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(100, 200, 255);
+}
