@@ -124,6 +124,7 @@ ul li a {
 .banner-section {
   gap: 50px;
   display: flex;
+  margin-top: 122px;
   align-items: center;
   justify-content: space-between;
 }
@@ -137,7 +138,7 @@ ul li a {
 }
 
 .banner-text .btn {
-  padding: ;
+  background-color: rgb(17, 17, 17);
 }
 
 .banner-img {
